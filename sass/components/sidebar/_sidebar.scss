@@ -1,0 +1,15 @@
+/*sidebar*/
+
+.sidebar {
+    background: var(--section-color);
+    width: 370px;
+    padding: 40px 0; 
+}
+.sidebar-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.13;
+    color: var(--text-color-white);
+    margin-bottom: 10px;
+}

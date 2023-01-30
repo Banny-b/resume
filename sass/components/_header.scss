@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    &__p {
+        margin-right: 20px;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        margin-right: 14px;
+    }
+    &__item {
+        margin-right: 20px;
+    }
+    
+    &__img {
+        width: 24px;
+        height: 24px;
+        border-radius: 50px;
+        transition-duration: 500ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &--active{
+            width: 34px;
+            height: 34px;
+        }
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    
+}
