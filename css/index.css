@@ -94,14 +94,13 @@ button {
   width: calc 830px;
 }
 
-/*about-me*/
 .about {
   margin-bottom: 20px;
 }
 .about__profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.15;
   color: var(--text-color-black);
   margin-bottom: 10px;
@@ -112,7 +111,7 @@ button {
   font-size: 47px;
   line-height: 1.15;
   color: var(--section-color);
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .about__discription {
   font-style: normal;
@@ -123,7 +122,6 @@ button {
   text-align: justify;
 }
 
-/*my-projects*/
 .projects {
   margin-bottom: 20px;
 }
@@ -150,6 +148,7 @@ button {
   line-height: 1.15;
   color: var(--text-color-grey);
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 .projects__text--top {
   margin-bottom: 5px;
@@ -186,7 +185,6 @@ button {
   text-align: justify;
 }
 
-/*work*/
 .work-expiriens {
   margin-bottom: 20px;
 }
@@ -242,7 +240,6 @@ button {
   color: var(--text-color-gray);
 }
 
-/*education*/
 .education-title {
   font-style: normal;
   font-weight: bold;
@@ -256,7 +253,7 @@ button {
   flex-direction: column;
 }
 .education__item:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .education__university {
   font-style: normal;
@@ -309,7 +306,6 @@ button {
   padding: 0 8px 0 8px;
 }
 
-/*sidebar*/
 .sidebar {
   background: var(--section-color);
   width: 370px;
@@ -330,7 +326,7 @@ button {
   height: 354px;
   margin: 0 auto;
   border-radius: 50%;
-  background-color: #138f85;
+  background-color: #62b1aa;
   transition-property: all;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -340,7 +336,6 @@ button {
   transform: scale(0.95);
 }
 
-/* contact */
 .contact {
   padding-right: 40px;
   padding-left: 40px;
@@ -375,7 +370,6 @@ button {
   color: var(--text-color-white);
 }
 
-/*skil*/
 .tech-skil {
   padding-right: 40px;
   padding-left: 40px;
