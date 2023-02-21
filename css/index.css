@@ -68,15 +68,18 @@ button {
   width: 24px;
   height: 24px;
   border-radius: 1px;
+  opacity: 0.4;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__img--active {
   width: 34px;
   height: 34px;
+  opacity: 0.8;
 }
 .header__img:hover {
   transform: scale(1.2);
+  opacity: 1;
 }
 
 .main-container {
