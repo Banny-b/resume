@@ -19,7 +19,7 @@
     &__img {
         width: 24px;
         height: 24px;
-        border-radius: 50px;
+        border-radius: 1px;
         transition-duration: 500ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         &--active{

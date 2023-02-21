@@ -67,7 +67,7 @@ button {
 .header__img {
   width: 24px;
   height: 24px;
-  border-radius: 50px;
+  border-radius: 1px;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -325,7 +325,7 @@ button {
   width: 370px;
   height: 354px;
   margin: 0 auto;
-  border-radius: 50%;
+  border-radius: 5px;
   background-color: #62b1aa;
   transition-property: all;
   transition-duration: 500ms;
