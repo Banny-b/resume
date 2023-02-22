@@ -18,14 +18,14 @@
     
     &__img {
         width: 24px;
-        height: 24px;
+        height: 14px;
         border-radius: 1px;
         opacity: 0.4;
         transition-duration: 500ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         &--active{
             width: 34px;
-            height: 34px;
+            height: 24px;
             opacity: 0.8;
         }
         &:hover{

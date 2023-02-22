@@ -42,7 +42,7 @@ button {
   --text-color-ginger: #FB6D3A;
   --text-color-white-ransparent: #ffffffab;
   --text-color-white: #ffffff;
-  --section-color:#049e91;
+  --section-color:#089185;
   --section-color-white: #ffffff;
 }
 
@@ -66,7 +66,7 @@ button {
 }
 .header__img {
   width: 24px;
-  height: 24px;
+  height: 14px;
   border-radius: 1px;
   opacity: 0.4;
   transition-duration: 500ms;
@@ -74,7 +74,7 @@ button {
 }
 .header__img--active {
   width: 34px;
-  height: 34px;
+  height: 24px;
   opacity: 0.8;
 }
 .header__img:hover {
@@ -312,7 +312,7 @@ button {
 .sidebar {
   background: var(--section-color);
   width: 370px;
-  padding: 40px 0;
+  padding: 35px 0;
 }
 
 .sidebar-title {
@@ -392,7 +392,7 @@ button {
 
 .soft-skil__item,
 .tech-skil__item {
-  color: var(--text-color-ginger);
+  color: var(--text-color-white);
 }
 
 .soft-skil__item--text,
@@ -413,7 +413,7 @@ button {
   padding: 0 0 0 17px;
 }
 .language__item {
-  color: var(--text-color-ginger);
+  color: var(--text-color-white);
 }
 .language__item--text {
   font-style: normal;
