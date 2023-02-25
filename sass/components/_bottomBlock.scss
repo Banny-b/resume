@@ -30,9 +30,11 @@
   margin-right: 15px;
   padding: 5px;
   border-radius: 3px;
+  opacity: 0.8;
 }
 
 .resume_link:hover {
   transform: scale(1.08);
   outline: 1px solid var(--text-color-white);
+  opacity: 1;
 }
