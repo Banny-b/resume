@@ -29,12 +29,14 @@
   text-decoration: none;
   margin-right: 15px;
   padding: 5px;
-  border-radius: 3px;
   opacity: 0.8;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .resume_link:hover {
   transform: scale(1.08);
   outline: 1px solid var(--text-color-white);
+  border-radius: 2px;
   opacity: 1;
 }
