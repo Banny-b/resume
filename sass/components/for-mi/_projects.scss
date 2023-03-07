@@ -25,20 +25,20 @@
         margin-left: 10px;
         margin-bottom: 20px;
     }
-    &__text--top{
+    &__text--top {
         margin-bottom: 5px;
         display: flex;
         gap: 5px;
         align-items: stretch;
     }
-    &__text--title{
+    &__text--title {
         font-style: normal;
         font-weight: normal;
         font-size: 17px;
         line-height: 1.15;
         color: var(--text-color-grey);
     }
-    &__icon{
+    &__icon {
         width: 25px;
         height: 25px;
         transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -57,7 +57,7 @@
         line-height: 1.15;
         color: var(--text-color-grey);
     }
-    &__p{
+    &__p {
         text-align: justify;
     }
 }

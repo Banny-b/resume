@@ -102,7 +102,7 @@ button {
 }
 .about__profession {
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 20px;
   line-height: 1.15;
   color: var(--text-color-black);
@@ -226,7 +226,7 @@ button {
 .work-expiriens__list {
   padding: 0 0 0 17px;
 }
-.work-expiriens__item {
+.work-expiriens__item, .work-expiriens__achievement {
   font-style: normal;
   font-weight: normal;
   font-size: 17px;

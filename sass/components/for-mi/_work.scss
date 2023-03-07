@@ -1,4 +1,4 @@
-.work-expiriens{
+.work-expiriens {
     margin-bottom: 20px;
     &-title {
         font-style: normal;
@@ -35,7 +35,7 @@
     &__list {
         padding: 0 0 0 17px
     }
-    &__item{
+    &__item, &__achievement {
         font-style: normal;
         font-weight: normal;
         font-size: 17px;
@@ -44,7 +44,7 @@
     }
 }
 
-.details__more{
+.details__more {
     cursor: pointer;
     font-style: normal;
         font-weight: normal;

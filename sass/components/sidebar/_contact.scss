@@ -1,4 +1,4 @@
-.contact{
+.contact {
     padding-right: 40px;
     padding-left: 40px;
     margin: 50px 0 0 0;
@@ -10,7 +10,7 @@
         color: var(--text-color-white);
         margin-right: 7px;
     }
-    &__link{ 
+    &__link { 
         font-style: normal;
         font-weight: normal;
         font-size: 17px;
@@ -20,11 +20,11 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transform: scale(0.85);
         &:hover,
-        &:focus{
+        &:focus {
             color: var(--text-color-white);
         }
     }
-    &__p{
+    &__p {
         font-style: normal;
         font-weight: normal;
         font-size: 17px;

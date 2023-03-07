@@ -11,7 +11,7 @@
         display: flex;
         flex-direction: column;
     }
-    &__item{
+    &__item {
         &:not(:last-child) {
             margin-bottom: 15px;}
     }
@@ -41,17 +41,17 @@
     &__divider {
         color: var(--text-color-black);
     }
-    &__link{
+    &__link {
         color: var(--text-color-ginger);
     }
 }
 
-.go{
+.go {
     background: #373740;
     color: var(--text-color-white);
     position: relative;
     margin-right: 10px;
-    &::after{
+    &::after {
         content: ''; 
         position: absolute; 
         left: 100%; 
@@ -61,7 +61,7 @@
     }
     
 }
-.it{
+.it {
     background: #F2600C;
     color: var(--text-color-white);
     padding: 0 8px 0 8px;
