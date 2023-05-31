@@ -48,7 +48,12 @@
     }
     }
     &__link {
+        font-weight: 600;
         text-decoration:none;
+        color: var(--text-color-grey);
+    }
+    &__link:hover {
+        color: var(--text-color-black);
     }
     &__bracket {
         font-style: normal;

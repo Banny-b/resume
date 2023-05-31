@@ -175,7 +175,12 @@ button {
   transform: scale(1.15);
 }
 .projects__link {
+  font-weight: 600;
   text-decoration: none;
+  color: var(--text-color-grey);
+}
+.projects__link:hover {
+  color: var(--text-color-black);
 }
 .projects__bracket {
   font-style: normal;
