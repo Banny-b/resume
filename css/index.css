@@ -285,6 +285,7 @@ button {
   font-size: 16px;
   line-height: 15px;
   color: var(--text-color-gray);
+  margin-bottom: 10px;
 }
 .education__divider {
   color: var(--text-color-black);
@@ -312,6 +313,27 @@ button {
   background: #F2600C;
   color: var(--text-color-white);
   padding: 0 8px 0 8px;
+}
+
+.details__more {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: var(--text-color-gray);
+  transition: 300ms ease-in-out;
+}
+.details__more:hover {
+  color: var(--text-color-ginger);
+}
+
+.certificate-img {
+  border: 1px solid var(--text-color-light-gray);
+  box-shadow: 5px 5px 5px rgba(129, 129, 129, 0.5);
+  transition: 300ms ease-in-out;
+}
+.certificate-img:hover {
+  transform: scale(1.05);
 }
 
 .sidebar {
