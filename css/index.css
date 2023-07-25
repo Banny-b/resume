@@ -126,7 +126,7 @@ button {
 }
 
 .projects {
-  margin-bottom: 20px;
+  margin-bottom: 34px;
 }
 .projects__title {
   font-style: normal;
@@ -191,6 +191,19 @@ button {
 }
 .projects__p {
   text-align: justify;
+}
+.projects__other {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.15;
+  color: var(--text-color-grey);
+  padding-left: 28px;
+  transition: all 450ms ease-in-out;
+}
+.projects__other:hover {
+  color: var(--text-color-black);
+  font-weight: 600;
 }
 
 .work-expiriens {
