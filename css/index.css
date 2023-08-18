@@ -192,16 +192,27 @@ button {
 .projects__p {
   text-align: justify;
 }
-.projects__other {
+
+.portfolio {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-img {
+  fill: var(--section-color);
+  margin-right: 8px;
+}
+
+.portfolio__other {
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
   line-height: 1.15;
   color: var(--text-color-grey);
-  padding-left: 28px;
+  padding-top: 3px;
   transition: all 450ms ease-in-out;
 }
-.projects__other:hover {
+.portfolio__other:hover {
   color: var(--text-color-black);
   font-weight: 600;
 }
