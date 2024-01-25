@@ -88,6 +88,12 @@
 
     &:hover {
         color: var(--text-color-black);
-        font-weight: 600;
+        animation: blink 1.8s infinite;
+    }
+
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
     }
 }

@@ -70,15 +70,22 @@
 
 .details__more {
     font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 15px;
-        color: var(--text-color-gray);
-        transition: 300ms ease-in-out;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: var(--text-color-gray);
+    transition: 300ms ease-in-out;
 
-        &:hover {
-            color: var(--text-color-ginger);
+    &:hover {
+        color: var(--text-color-black);
+        animation: blink 1.8s infinite;
+    }
+
+    @keyframes blink {
+        50% {
+            opacity: 0;
         }
+    }
 }
 
 .certificate-img {
