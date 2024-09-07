@@ -522,7 +522,6 @@ button {
 }
 
 .resume_link:hover {
-  transform: scale(1.08);
   outline: 1px solid var(--text-color-white);
   border-radius: 2px;
   opacity: 1;
